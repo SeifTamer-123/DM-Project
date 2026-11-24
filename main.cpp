@@ -36,8 +36,9 @@ int main() {
         for (const auto& item : r.right) 
         {
             cout << item << " ";
+            cout << "(confidence =" << r.confidence << "." << '\n';
         }
-        cout << "(confidence =" << r.confidence << "." << '\n';
+        
     }
     return 0;
 }
